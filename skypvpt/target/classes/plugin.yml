@@ -1,6 +1,0 @@
-name: SkyPvPu
-version: '1.0'
-main: org.m7moud.skypvpt.Plugin
-commands:
-  axeshop:
-    description: Open axes shop.
