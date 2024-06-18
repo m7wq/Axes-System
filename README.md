@@ -1,7 +1,11 @@
 # USAGES
 
+
 **Create Axe Object**
 ```java
+// All custom objects & methods in AxesAPI class
+// So do AxesAPI. before every method or object
+
 HashMap<Enchantment , Integer> enchants = new HashMap<Enchantment,Integer>();
 enchants.put(Enchantment.DAMAGE_ALL, 1);
 enchants.put(Enchantment.DURABILITY, 3);
