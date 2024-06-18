@@ -64,7 +64,7 @@ public void DropLockedItemEvent(PlayerDamagePlayerWithAxeEvent e){
         // Get if event cancelled or no
         e.isCancelled();
 
-        // To cancell dropping the locked item from death or normal drop
+        // Cancell damage event
         e.setCancelled(true);
 
 }
