@@ -1,4 +1,4 @@
-name: AxesAPI
+name: axes
 version: "1.0-SNAPSHOT"
-author: M7moud
-main: org.m7moud.AxesAPI
+author: Your Name
+main: org.m7moud.MyPlugin

@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.Map;
 
 import org.bukkit.enchantments.Enchantment;
+import org.bukkit.inventory.ItemStack;
+import org.m7moud.AxesAPI;
 
 public class Axe {
 
@@ -41,5 +43,10 @@ public class Axe {
     public void setEnchants(Map<Enchantment, Integer> enchants) {
         this.enchants = enchants;
     }
+
+    public ItemStack gItemStack(){
+        return AxesAPI.createAxeItemStack(this);
+    }
+    
 
 }

@@ -23,6 +23,11 @@ public class DropListener implements Listener{
     public HashMap<Player, List<ItemStack>> lockedItems = new HashMap<Player,List<ItemStack>>();
 
     @EventHandler
+    public void onAxe(DropLockedItemEvent e){
+        e.setCancelled(true);
+    }
+
+    @EventHandler
     public void onPlayerDrop(PlayerDropItemEvent e){
 
         DropLockedItemEvent lockedItemEvent = new DropLockedItemEvent();
