@@ -56,7 +56,7 @@ public void DropLockedItemEvent(DropLockedItemEvent e){
 
 ```java
 @EventHandler
-public void DropLockedItemEvent(PlayerDamagePlayerWithAxeEvent e){
+public void PlayerDamageWithAxeEvent(PlayerDamagePlayerWithAxeEvent e){
 
         // Get Axe Object
         e.getAxe();
