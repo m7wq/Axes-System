@@ -1,5 +1,8 @@
+# UPLOAD FILE
+
 ![image](https://github.com/tempMahmoud/Axes-System/assets/170753064/f0481967-6ed1-48f4-b0ee-a0fd36023c00)
 
+# PUT DEPENDENCY
 ```xml
 <dependency>
   <groupId>org.m7moud</groupId>
@@ -9,6 +12,7 @@
 	<systemPath>${project.basedir}/lib/axes.jar</systemPath>
 </dependency>
 ```
+**And enjoy!**
 
 # USAGES
 
