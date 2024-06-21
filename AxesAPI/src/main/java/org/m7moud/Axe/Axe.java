@@ -44,7 +44,7 @@ public class Axe {
         this.enchants = enchants;
     }
 
-    public ItemStack gItemStack(){
+    public ItemStack getItemStack(){
         return AxesAPI.createAxeItemStack(this);
     }
     
