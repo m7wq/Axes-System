@@ -72,6 +72,9 @@ public void PlayerDamageWithAxeEvent(PlayerDamagePlayerWithAxeEvent e){
                 // Get axe enchants
                 e.getAxe().getEnchants();
 
+                // Get ItemStack of The axe object
+                e.getAxe().getItemStack();
+
         // Get who got damaged
         e.getVictim();
 
