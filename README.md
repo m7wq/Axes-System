@@ -10,7 +10,7 @@
   <artifactId>axes</artifactId>
   <version>1.0-SNAPSHOT</version>
   <scope>system</scope>
-	<systemPath>${project.basedir}/lib/axes.jar</systemPath>
+  <systemPath>${project.basedir}/lib/axes.jar</systemPath>
 </dependency>
 ```
 **And enjoy!**
